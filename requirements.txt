@@ -19,5 +19,4 @@ requests==2.22.0
 setuptools==41.6.0
 urllib3==1.25.7
 wheel==0.33.6
-wsgiref==0.1.2
 gunicorn==19.9.0

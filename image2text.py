@@ -7,7 +7,6 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 import pytesseract
 import os
 import re
-import wsgiref
 
 @app.route("/extract_date", methods=['POST'])
 def get_data():
