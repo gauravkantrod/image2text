@@ -1,1 +1,1 @@
-web: gunicorn image2text:app
+web: gunicorn image2text:app1
