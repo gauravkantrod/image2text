@@ -9,12 +9,12 @@ import os
 import re
 
 
-@app.route("/appcheck", methods = "GET")
+@app1.route("/appcheck", methods = ["GET"])
 def check_app_up():
     return "Application is running."
 
 
-@app.route("/extract_date", methods=['POST'])
+@app1.route("/extract_date", methods=['POST'])
 def get_data():
     file = request.files['file']
     text = pytesseract.image_to_string(Image.open(file).convert("L"), lang='eng')
