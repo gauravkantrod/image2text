@@ -8,6 +8,12 @@ import pytesseract
 import os
 import re
 
+
+@app.route("/appcheck", methods = "GET")
+def check_app_up():
+    return "Application is running."
+
+
 @app.route("/extract_date", methods=['POST'])
 def get_data():
     file = request.files['file']
