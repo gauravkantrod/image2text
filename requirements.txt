@@ -1,7 +1,7 @@
 decorator==4.4.1
 Flask==1.1.1
 imutils==0.5.2
-Jinja2==2.10.3
+Jinja2==2.11.3
 opencv-python==4.1.1.26
 Pillow==6.2.0
 pytesseract==0.2.6
